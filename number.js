@@ -1,15 +1,13 @@
-function whichGreater(num1, num2, num3,){
-    if (num1>num2 && num3)
-    {
-        console.log("num1 is greater");
+function whichGreater(num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+        console.log("number 1 is greater");
+    }
+    else if (num2 > num1 && num2 > num3) {
+        console.log("number 2 is greater");
     }
     else {
-        console.log("num2 is greater");
+        console.log("number 3 is greater");
     }
-    else 
-    {
-        console.log("num3 is greater");
-    }
-    
-    isGreater(num2,num3)
 }
+
+whichGreater(10, 20, 30);
