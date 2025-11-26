@@ -1,6 +1,8 @@
-
-    let sum =0;
-    for(let i=0; i<5; i++){
-        console.log (sum);
+function number(n){
+    let sum = 0;
+    for(let i = 1; i <= n; i++){
         sum = sum + i;
     }
+    return sum;
+}
+ console.log("");
